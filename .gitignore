@@ -37,5 +37,6 @@ Thumbs.db
 # Vite
 .vite/
 
-# Claude Code
-.claude/
+# Claude Code (.claude/commands/는 커스텀 커맨드 공유를 위해 추적)
+.claude/*
+!.claude/commands/
